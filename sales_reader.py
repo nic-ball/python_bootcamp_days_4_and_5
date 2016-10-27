@@ -1,21 +1,21 @@
 def main():
-    num_days = int(input("For how many days do " + "you have sales?\n"))
-    sales_file = open("sales", "w")
+    num_days = int(input("For how many days do " + "you have sales.txt?\n"))
+    sales_file = open("sales.txt", "w")
 
 
     for count in range(1, num_days + 1):
-        sales = float(input("Enter the sales for day " + str(count) + ": \n"))
+        sales = float(input("Enter the sales.txt for day " + str(count) + ": \n"))
 
         sales_file.write(str(sales) + "\n")
 
 
     sales_file.close()
-    print("Date written to sales.txt\n")
+    print("Date written to sales.txt.txt\n")
 
 main()
 
 def main():
-    sales = open("sales", "r")
+    sales = open("sales.txt", "r")
     line = sales.readline()
 
 

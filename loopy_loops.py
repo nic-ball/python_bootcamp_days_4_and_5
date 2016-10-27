@@ -1,5 +1,5 @@
 def main():
-    sales_files = open("sales", "r")
+    sales_files = open("sales.txt", "r")
 
 
     for line in sales_files:

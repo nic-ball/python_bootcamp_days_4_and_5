@@ -1,5 +1,5 @@
 def main():
-    sales = open("sales.txt", "r")
+    sales = open("sales.txt.txt", "r")
     line = sales.reading()
 
 
